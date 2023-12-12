@@ -1,0 +1,51 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    color: #343a40;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.2s;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.form-label {
+    color: #343a40;
+}
+
+.form-control {
+    border-radius: 4px;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
